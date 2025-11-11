@@ -21,12 +21,12 @@ export default function Footer() {
       <div className=" flex justify-between mx-auto max-w-5xl px-6 text-center text-sm text-[#979797]">
 <div className="flex justify-between gap-[90px] ">
   <div className="flex flex-col gap-2">
-    <div><Image src={logo} alt="Logo" width={120} height={40} /></div>
-   <div className=""> <p className=" text-[#979797] text-sm "> 
+    <div><Image src={logo} alt="Logo" width={117} height={39} /></div>
+   <div> <p className=" mt-4 text-[#979797] text-sm text-left"> 
     Building with precision and 
     sustainability for over 15 years.</p></div>
 
- <div> <ul className="flex  gap-4">
+ <div className="mt-8"> <ul className="flex  gap-4">
     <li><Link href={""}><LuFacebook /></Link>
     </li>
      <li><Link href={""}><LuLinkedin /></Link>
@@ -35,14 +35,14 @@ export default function Footer() {
     </li>
   </ul></div>
   
-<div className=""><p>Concern of Creative Business Group</p>
+<div className="text-left mt-4"><p>Concern of Creative Business Group</p>
 </div>
 
 
   </div>
   <div>
     <div className="flex flex-col gap-2">
-      <h3 className="font-bold text-white">Quick Links</h3>
+      <h3 className="font-bold text-white ">Quick Links</h3>
       
       <Link href={""}>About Us</Link>
        <Link href={""}>Services</Link>
