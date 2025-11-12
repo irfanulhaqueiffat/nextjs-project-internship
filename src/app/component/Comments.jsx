@@ -12,9 +12,9 @@ const Comments = () => {
           <div className="content-part text-center flex flex-col items-center justify-center">
             {/* ---------- Quote & Text ---------- */}
             <div className="text-part mb-6 sm:mb-8 w-full">
-              <div className="flex flex-col lg:flex-row justify-center items-center gap-3 sm:gap-4 lg:gap-6 text-center">
+              <div className="flex flex-col lg:flex-row justify-center  gap-3 sm:gap-4 lg:gap-6 text-center">
                 {/* Left Icon - Hidden on mobile, visible on desktop */}
-                <FaQuoteLeft className="text-3xl sm:text-4xl md:text-5xl text-[rgba(46,125,50,0.4)] rotate-180 hidden lg:block shrink-0" />
+                <FaQuoteLeft className="text-3xl sm:text-4xl md:text-5xl text-[rgba(46,125,50,0.4)] rotate-x-180 hidden lg:block shrink-0" />
 
                 {/* Text */}
                 <h2 className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-mono text-primary max-w-2xl leading-relaxed px-2">
