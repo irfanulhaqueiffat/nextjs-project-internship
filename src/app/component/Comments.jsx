@@ -1,5 +1,5 @@
 import React from "react";
-// import img from "../../../public/images/project-details/Ceo.png";
+import img from "../../../public/image/project-details/Ellipse 2.png";
 import Image from "next/image";
 import { FaQuoteRight } from "react-icons/fa";
 import { FaQuoteLeft } from "react-icons/fa";
@@ -31,11 +31,11 @@ const Comments = () => {
             {/* ---------- Author Part ---------- */}
             <div className="image-part flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-4 mt-4 sm:mt-6">
               <div className="img w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full overflow-hidden shrink-0">
-                {/* <Image
+                <Image
                   src={img}
                   alt="img"
                   className="w-full h-full object-cover"
-                /> */}
+                />
               </div>
               <div className="content text-center sm:text-left">
                 <h2 className="text-xs sm:text-sm md:text-base lg:text-lg font-bold font-mono text-primary mb-1">

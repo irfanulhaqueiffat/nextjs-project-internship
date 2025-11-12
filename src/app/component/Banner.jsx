@@ -34,7 +34,7 @@ const Banner = () => {
         <div className="absolute top-4 left-4 z-20">
           <Link
             href="/"
-            className="inline-flex items-center justify-center gap-3 py-2 px-3 bg-gray-700/70 border border-gray-400 rounded-lg text-white font-inter text-sm font-medium hover:bg-gray-700 transition-all"
+            className=" container inline-flex items-center justify-center gap-3 py-2 px-3 bg-gray-700/70 border border-gray-400 rounded-lg text-white font-inter text-sm font-medium hover:bg-gray-700 transition-all"
           >
             <FaArrowLeft />
             Back to Projects
@@ -42,7 +42,7 @@ const Banner = () => {
         </div>
 
         {/* Content part (bottom-left, responsive) */}
-        <div className="absolute inset-0 z-10">
+        <div className="absolute inset-0 z-10 mx auto">
           <div className="container mx-auto h-full flex flex-col justify-end px-4 py-6 sm:py-8 lg:py-12">
             {/* Title */}
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-inter font-bold text-white mb-2">

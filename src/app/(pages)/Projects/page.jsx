@@ -3,13 +3,15 @@ import Comments from '@/app/component/Comments'
 import RelatedProjects from '@/app/component/RelatedProjects'
 import React from 'react'
 import Banner from '@/app/component/Banner'
+import Overview from '@/app/component/Overview'
 
 
 const page = () => {
   return (
 <>
 <Banner/>
-<ProjectGallery />
+<Overview/>
+<ProjectGallery />    
 <Comments />
 <RelatedProjects />
 </>

@@ -8,7 +8,7 @@ import { LuArrowRight } from "react-icons/lu";
 
 const ProjectGallery = () => {
   return (
-    <div className="section">
+    <div className="section mt-25">
       <div className="container mx-auto bg-[#F9FAFB] px-4 py-10">
         <div className="mb-8">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black text-center mb-3">Project Gallery</h1>
